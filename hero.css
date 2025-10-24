@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background: linear-gradient(to right, aqua 50%, #ffffff 50%);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navber {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+}
+
+.nav_container nav ul {
+  display: flex;
+}
+
+.nav_container nav ul a:hover {
+  text-decoration: underline;
+  
+}
+
+.nav_container nav li {
+  margin-right: 20px;
+}
+
+.nav_container a {
+  font-size: 1.2rem;
+  color: #000;
+} 
+
+.button {
+  background-color: teal;
+  padding: 8px 10px;
+  color: #ffff !important;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background-color: #dfa70b;
+  color: #fff;
+}
+
+
+/* hero */
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* hero left*/
+
+.hero-left {
+  width: 50%;
+  padding: 48px;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-left span {
+ display: block;
+ width: 30px;
+ height: 3px;
+ background-color: #ffff;
+ margin-bottom: 20px;
+}
+
+.hero-left p {
+  inline-size: 450px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.btns-button {
+  background-color: #c0a24f;
+  margin-right: 20px;
+  padding: 8px 20px;
+  border-radius: 5px;
+} 
+
+.btns a {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+
+/* Hero Right */
+
+.hero-right {
+  width: 50%;
+  padding: 40px;
+}
+.right-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.right-top .rtop-img {
+ width: 90%;
+}
+
+.right-top .soc-image {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(71, 159, 130);
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+.right-top .soc-image {
+  width: 20px;
+  padding: 7px;
+} 
+
+.right-botton .give-icon {
+  width: 10%;
+} 
+
+.right-botton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.cat-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-botton .cat p {
+  inline-size: 100px;
+  text-align: right;
+}
+
+.right-botton .cta span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(81, 143, 143);
+}
